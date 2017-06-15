@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewBag.Title = "EditInspection";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+@using Vereyon.Web
+@model DS32017_WeedHackers.Models.ServiceModels.InspectionModel
+<header>Add Inspection</header>
+<div>
+    @Html.RenderFlashMessages()
+   
+     <div class="row">
+        <div class="col-sm-5" style="">
+            <Strong>Customer Information :</Strong><br /><br />
+            <div class="row">
+                <div class="col-sm-4">Customer Name:</div>
+                <div class="col-sm-8">@Model.ServiceRequest.ServiceRequest.Customer.User.Name</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Customer Email</div>
+                <div class="col-sm-8">@Model.ServiceRequest.ServiceRequest.Customer.User.Email</div>
+            </div>
+
+            Customer Address: &nbsp;&nbsp;
+            @Model.ServiceRequest.ServiceRequest.Customer.Address<br />
+
+            Customer Telephone: &nbsp;&nbsp;
+            @Model.ServiceRequest.ServiceRequest.Customer.User.PhoneNumber<br />
+
+            Customer Name: &nbsp;&nbsp;
+            @Model.ServiceRequest.ServiceRequest.Customer.CustomerType.Name<br />
+
+        </div>
+
+         <div class="col-sm-7" style="">
+            @Html.BeginForm("SendQuote", "Employee", FormMethod.Post){
+            <Strong>Service Request Information :</Strong><br /><br />
+            Service Requested: &nbsp;&nbsp;
+            @Model.ServiceRequest.ServiceRequest.Service.ServiceName<br />
+            Department: &nbsp;&nbsp;
+            @Model.ServiceRequest.ServiceRequest.Service.Department.DepartmentName<br />
+
+            Enter unit @Html.LabelForModel(Model.ServiceRequest.ServiceRequest.Service.UnitDescription)<br />
+            @Html.TextBoxFor(sr => sr.ServiceRequest.ServiceRequest.UnitQuantity)&nbsp;
+            @Html.Label(Model.ServiceRequest.ServiceRequest.Service.UnitSuffix)<br />
+            @Html.HiddenFor(Model => Model.ServiceRequest.ServiceRequest.Id)
+            <script>
+                var unitPrefix = "@Model.ServiceRequest.ServiceRequest.Service.UnitDescription";
+                var unitPrice = @Model.ServiceRequest.ServiceRequest.Service.PricePerUnit;
+                var unitSuffix = "@Model.ServiceRequest.ServiceRequest.Service.UnitSuffix";
+            </script>
+
+            <input type="submit" value="Save Inspection" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="row">
+                <div class="row">
+                    <div class="col-sm-4">Total:</div>
+                    <div class="col-sm-8" id="inspectionTotal">Total:</div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">Total(incl VAT)</div>
+                    <div class="col-sm-8" id="inspectionTotalIncVat">Total:</div>
+                </div>
+            </div>
+            }
+        </div>
+
+
+    </div>
+</div>
+<script type="text/javascript" src="~/Scripts/InspectionScript/InspectionCost.js"></script>
+
+

@@ -1,0 +1,127 @@
+<html>
+<head>
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+		}
+		#slip{
+			border: 2px solid lightgrey;
+			width: 75%;
+			margin: 25px auto;
+			padding: 15px;
+			border-bottom: 2px dashed lightgrey;
+			max-width: 500px;
+		}
+		#logo{
+			width: 100px;
+			margin: 0 auto;
+			display: block;
+		}
+		
+		header,
+		footer{
+			border: lightgrey;
+		}
+		
+		header{
+			border-bottom: thin solid lightgrey;
+			padding-bottom: 15px;
+			padding: 15px 0;
+		}
+		
+		footer{
+			border-top: thin solid lightgrey;
+			padding-top: 15px;
+		}
+		
+		table{
+			width: 100%;
+		}
+		
+		.footer-title,
+		.header-title{
+			width: 65px;
+			display: inline-block;
+		}
+		
+		.header-title{
+			width: 120px;
+		}
+		
+		footer > div{
+			padding: 2.5px 0;
+		}
+		
+		#body{
+			padding: 15px 0;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="slip">
+		<img id="logo" src="cid:<%LOGO_ID%>">
+
+		
+		<header style="text-align:center;">
+			<strong style="font-size: 186%;font-family: sans-serif;">WeedHackers</strong> 
+			<br/>
+						<p>
+                            A Subdivision Of Maxcor IT Solutions.
+                            <br>To be a leading role player,
+                            <br>  in Environmental Sustainability 
+                            <br>   "Doing it right the first time!"
+                        </p>
+						<br/>
+						Quotation #<%QUOTATION_NUMBER%>
+		</header>
+
+		<div id="body">
+			<div>
+				<span class="header-title">Requested For</span>
+				<span>#<%QUOTATION_NUMBER%></span>
+			</div>
+			<div>
+				<span class="header-title">Service Type</span>
+				<span><%SERVICE_TYPE%></span>
+			</div>
+			<br/>
+			<div>
+				<span class="header-title">Unit Price</span>
+				<span><%UNIT_PRICE%></span>
+			</div>
+			<div>
+				<span class="header-title">Unit Qty</span>
+				<span><%UNIT_QTY%></span>
+			</div>
+			<br/>
+			<div>
+				<span class="header-title">Sub Total</span>
+				<span><%UNIT_SUBTOTAL%></span>
+			</div>
+			<div>
+				<span class="header-title">Total (14% VAT)</span>
+				<span><%UNIT_TOTAL%></span>
+			</div>
+		</div>
+
+		<footer>
+			<div>
+				<span class="footer-title">Email :</span>
+				<span><a href="mailto:<%EMAIL%>"><%EMAIL%></a></span>
+			</div>
+			<div>
+				<span class="footer-title">Office :</span>
+				<span><a href="tell:<%TELL%>"><%TELL%></a></span>
+			</div>
+			<br/>
+			<div>
+				<strong>NOTE: </strong>
+				<span>Quotations are valid for a period of 30 days only. Go to the <a target="_blank" href="http://weedhackers.com">Weedhackers</a> app to accept or reject the quotation.</span>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>

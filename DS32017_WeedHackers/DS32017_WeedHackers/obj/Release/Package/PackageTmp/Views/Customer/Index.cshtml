@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+
+@using Vereyon.Web
+@model DS32017_WeedHackers.Models.CustomerModels.CustomerInformationModel
+<header>Welcome back @Model.CurrentCustUser.Name! </header>
+
+<div style="text-align: center">
+    <h3 style="text-align: center">New Service Request</h3>
+    <fieldset>
+        @using (Html.BeginForm("RequestService", "Customer", FormMethod.Post))
+        {
+        @Html.RenderFlashMessages()
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@Html.Label("Please Select A Service")</th>
+                        <th>@Html.DropDownListFor(u => u.ServiceRequestModel.ServiceRequest.ServiceId, Model.ServiceRequestModel.Services.Select(sv => new SelectListItem { Text = sv.ServiceName, Value = sv.Id.ToString() }))</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>@Html.Label("Address")</th>
+                        <th>
+                            @Html.TextBoxFor(sv => sv.Address)
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th>@Html.Label("Date")</th>
+                        <th>
+                            @Html.TextBoxFor(u => u.ServiceRequestModel.ServiceRequest.RequestDateTime, new { type = "date" })
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>@Html.Label("Frequency In Months (0 is once-off)")</th>
+                        <th>
+                            @Html.TextBoxFor(u => u.ServiceRequestModel.ServiceRequest.FrequencyInMonths, new { min = 0, max = 36, step = 12, type = "number" })
+                        </th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>
+                            <input type="submit" value="Request" />
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            @*@Html.Label("Please Select A Service")<br />
+                //select runs/iterates thru custtypes and mapps it
+                @Html.DropDownListFor(u => u.ServiceRequestModel.ServiceRequest.ServiceId, Model.ServiceRequestModel.Services.Select(sv => new SelectListItem { Text = sv.ServiceName, Value = sv.Id.ToString() }))
+
+                <br />
+                @Html.Label("Address")
+                @Html.TextBoxFor(sv => sv.Address)<br />
+
+                @Html.Label("Date")
+                @Html.TextBoxFor(u => u.ServiceRequestModel.ServiceRequest.RequestDateTime, new { type = "date" })<br />
+
+                @Html.Label("Frequency In Months (0 is once-off)")
+                @Html.TextBoxFor(u => u.ServiceRequestModel.ServiceRequest.FrequencyInMonths, new { min = 0, max = 36, step = 12, type = "number" })
+                <br />
+                <input type="submit" value="Request" />*@
+        }
+    </fieldset>
+ 
+   
+</div>

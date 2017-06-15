@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+@using Vereyon.Web
+@model DS32017_WeedHackers.Models.EmployeeModels.Admin.AdminModel
+<header>Admin Page</header>
+<div>
+    @Html.RenderFlashMessages()
+    <table class="table">
+        <thead>
+        <tr>
+            <th><img src="~/Content/Images/1493854640_user_male2.png"/></th>
+            <th>@Html.LabelFor(u => u.AdminUser.Name): &nbsp;
+
+                @Html.Label(Model.AdminUser.Name)
+                <br/>
+
+                @Html.LabelFor(u => u.AdminUser.Surname): &nbsp;
+
+                @Html.Label(Model.AdminUser.Surname)
+                <br/>
+
+                @Html.LabelFor(u => u.AdminUser.Email): &nbsp;
+
+                @Model.AdminUser.Email
+                <br/>
+
+                @Html.LabelFor(u => u.AdminUser.PhoneNumber): &nbsp;
+
+                @Html.Label(Model.AdminUser.PhoneNumber)
+                <br/></th>
+            <th><button type="button" class="btn btn-success btn-lg fa fa-pencil" data-toggle="modal" data-target="#myModal"></button></th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    
+
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Update Admin Details</h4>
+                </div>
+                <div class="modal-body">
+                    <fieldset style="text-align: center">
+                        @using (Html.BeginForm("UpdateDetails", "Customer", FormMethod.Post))
+                        {
+                            @Html.ValidationMessageFor(u => u.AdminEmployee.User.Email)<br />
+                            @Html.LabelFor(u => u.email)<br />
+                            @Html.TextBoxFor(u => u.email)<br />
+
+                            @Html.ValidationMessageFor(u => u.AdminUser.Password)<br />
+                            @Html.LabelFor(u => u.password)<br />
+                            @Html.TextBoxFor(u => u.password)<br />
+
+                            @Html.ValidationMessageFor(u => u.AdminUser.PhoneNumber)<br />
+                            @Html.LabelFor(u => u.phonenumber)<br />
+                            @Html.TextBoxFor(u => u.phonenumber)<br />
+                        <br/>
+                        <br/>
+                            <input type="submit" class="btn btn-success" value="Update" />
+                        }
+                    </fieldset>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    @*<img src="~/Content/Images/1493854640_user_male2.png" />
+    <fieldset>
+        <strong>Admin User Details</strong>
+        <br />
+        @Html.LabelFor(u => u.AdminUser.Name): &nbsp;
+
+        @Html.Label(Model.AdminUser.Name)
+        <br />
+
+        @Html.LabelFor(u => u.AdminUser.Surname): &nbsp;
+
+        @Html.Label(Model.AdminUser.Surname)
+        <br />
+
+        @Html.LabelFor(u => u.AdminUser.Email): &nbsp;
+
+        @Html.Label(Model.AdminUser.Email)
+        <br />
+
+        @Html.LabelFor(u => u.AdminUser.PhoneNumber): &nbsp;
+
+        @Html.Label(Model.AdminUser.PhoneNumber)
+        <br />
+    </fieldset>
+    <br />
+    <br />*@
+</div>

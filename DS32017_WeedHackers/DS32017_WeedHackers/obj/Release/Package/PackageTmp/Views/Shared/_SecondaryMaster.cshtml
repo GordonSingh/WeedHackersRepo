@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "_SecondaryMaster";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="secondary-master">
+    <div class="side-nav">
+        @foreach (var navItem in Model.SideNavModels)
+        {
+            <a class="@navItem.Class" href="@navItem.Link"><i class="@navItem.Icon"></i> <span>@navItem.Title</span></a>
+        }
+    </div>
+
+    <div class="body">
+        @RenderBody()
+    </div>
+</div>

@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using Vereyon.Web
+@model DS32017_WeedHackers.Models.HelperModels.EmailPasswordModel
+<h2 style="text-align: center">Request Password Reset</h2>
+<div>
+    @Html.RenderFlashMessages()
+    <fieldset style="text-align: center">
+        <h4>Please enter your registered email</h4>
+        @using (Html.BeginForm("ResetPassword", "ForgotPassword", FormMethod.Post))
+        {
+            @Html.LabelFor(e => e.Email)<br/>
+            @Html.TextBoxFor(e => e.Email)<br/>
+            <br/>
+            <input type="submit" value="Reset" class="btn btn-success"/>
+        }
+    </fieldset>
+</div>
+

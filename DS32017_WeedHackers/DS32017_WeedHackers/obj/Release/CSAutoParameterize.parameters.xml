@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="WeedHackConn-Web.config Connection String" description="WeedHackConn Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:pgultpiql7.database.windows.net,1433;Initial Catalog=WeedhackersDb;Persist Security Info=False;User ID=dbAdmin@pgultpiql7;Password=Server01;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\GameGord\\Documents\\Visual\ Studio\ 2015\\Projects\\DS32017_WeedHackers\\DS32017_WeedHackers\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='WeedHackConn']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,35 @@
+﻿@using Vereyon.Web
+@model DS32017_WeedHackers.Models.ApplicationModels.LoginModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="text-align: center">Welcome,<br/>Please Login to continue..</h2>
+@Html.RenderFlashMessages()
+@using(Html.BeginForm("Login", "Security", FormMethod.Post))
+{
+    <fieldset style="text-align: center">
+       @Html.ValidationMessageFor(u => u.Email)<br/>
+         @Html.LabelFor(u => u.Email)
+        <br/>
+        @Html.TextBoxFor(u => u.Email)
+        
+        <br/>
+        @Html.ValidationMessageFor(u => u.Password)<br/>
+        @Html.LabelFor(u => u.Password)
+        <br/>
+        @Html.PasswordFor(u => u.Password)
+        
+        <br/>
+        <br/>
+
+        <input type="submit" value="Log In" class="btn btn-success"/>
+        <br/>
+        <br/>
+       @Html.ActionLink("New to WeedHackers?", "Index", "Registration")&nbsp;
+       @Html.ActionLink("Forgot Password?", "Index", "ForgotPassword")
+      
+    </fieldset>
+
+}
+

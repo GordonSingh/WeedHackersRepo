@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "QuotesManagement";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+@model DS32017_WeedHackers.Models.EmployeeModels.Manager.ManagerQuoteManagmentModel
+<header>Job Assignment</header>
+<div>
+    @using (Html.BeginForm("AssignEmployeedToQuote", "Employee", FormMethod.Post))
+    {
+        @Html.HiddenFor(m => m.ServiceRequest.Id)
+        @Html.Label("Assign Lead Employee")
+        @Html.DropDownListFor(d => d.ServiceRequest.LeadEmployeeId, Model.Employees.Select(ct => new SelectListItem { Text = ct.User.Name, Value = ct.User.Id.ToString() }))
+        <br />
+        @Html.Label("Assign Employees")
+        @Html.ListBoxFor(m => m.AssignedEmployeeIds, new MultiSelectList(Model.Employees.Select(e => e.User), "Id", "name"), new { multiple = "multiple" })<br />
+        <input type="submit" value="Created Job" />
+    }
+</div>

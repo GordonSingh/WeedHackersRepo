@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "AllEmployees";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+@using Vereyon.Web
+@model DS32017_WeedHackers.Models.EmployeeModels.Admin.AdminModel
+
+
+<script>
+    var _handleKeyDown = function () {
+        var searchTerm = document.getElementById("txtSearch").value.toLowerCase();
+        var userRows = document.querySelectorAll("tbody tr");
+
+        for (var userRowIndex = 0; userRowIndex < userRows.length; userRowIndex++) {
+            var currentUser = userRows[userRowIndex].querySelectorAll("td");
+
+            var name = currentUser[0].innerHTML.toLowerCase();
+            var surname = currentUser[1].innerHTML.toLowerCase();
+            var email = currentUser[3].innerHTML.toLowerCase();
+            var phonenumber = currentUser[4].innerHTML.toLowerCase();
+            var employeetype = currentUser[5].innerHTML.toLowerCase();
+            var department = currentUser[6].innerHTML.toLowerCase();
+
+            var isMatch = searchTerm.length === 0;
+
+            if (!isMatch) {
+                if (name.indexOf(searchTerm) > -1 ||
+                    surname.indexOf(searchTerm) > -1 ||
+                    email.indexOf(searchTerm) > -1 ||
+                    phonenumber.indexOf(searchTerm) > -1 ||
+                    employeetype.indexOf(searchTerm) > -1 ||
+                    department.indexOf(searchTerm) > -1) {
+                    isMatch = true;
+                }
+            }
+            if (isMatch) {
+                userRows[userRowIndex].classList.remove("hide");
+            } else {
+                userRows[userRowIndex].classList.add("hide");
+
+            }
+        }
+    }
+</script>
+<style>
+    i.fa.fa-times {
+        -webkit-transition: 0.25s;
+        -moz-transition: 0.25s;
+        -ms-transition: 0.25s;
+        -o-transition: 0.25s;
+        transition: 0.25s;
+    }
+
+        i.fa.fa-times:hover {
+            cursor: pointer;
+            color: red;
+            -webkit-transition: 0.25s;
+            -moz-transition: 0.25s;
+            -ms-transition: 0.25s;
+            -o-transition: 0.25s;
+            transition: 0.25s;
+        }
+
+    input[type=search] {
+        -ms-border-radius: 5px;
+        border-radius: 5px;
+        padding: 5px;
+        border: thin solid gray;
+        width: 100%;
+    }
+</style>
+<header>All Employees</header>
+<div>
+    @Html.RenderFlashMessages()
+    <i class="fa fa-search"></i>Search Employees
+    <input type="search" placeholder="Search Employees" id="txtSearch" onkeydown="_handleKeyDown()"/>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Surname</th>
+            <th>Email</th>
+            <th>Contact Details</th>
+
+            <th>Employee Type</th>
+            <th>Department</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var empmodel in Model.AllEmployees)
+        {
+            <tr>
+                <td>@empmodel.User.Name</td>
+                <td>@empmodel.User.Surname</td>
+                <td>@empmodel.User.Email</td>
+                <td>@empmodel.User.PhoneNumber</td>
+                <td>@empmodel.EmployeeType.Name</td>
+                <td>@empmodel.Department.DepartmentName</td>
+                <td><i class="fa fa-times" title="Delete @empmodel.User.Name @empmodel.User.Surname from database" onclick="window.location = '@Url.Action("DeleteEmployee", "Admin")' + '/@empmodel.Id' / new '@empmodel.User.Id'"></i></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,60 @@
+﻿@using Vereyon.Web
+@model DS32017_WeedHackers.Models.ApplicationModels.CustomerRegistrationModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align: center">You're almost there..</h2>
+<h3 style="text-align: center">Register to get started</h3>
+
+<div>
+    @Html.RenderFlashMessages()
+    <fieldset style="text-align: center">
+        @using (Html.BeginForm("Register", "Registration", FormMethod.Post))
+        {
+            @Html.ValidationMessageFor(u => u.RegistringUser.Name)<br/>
+            @Html.LabelFor(u => u.RegistringUser.Name)
+            <br/>
+            @Html.TextBoxFor(u => u.RegistringUser.Name)
+            <br/>
+            @Html.ValidationMessageFor(u => u.RegistringUser.Surname)<br/>
+            @Html.LabelFor(u => u.RegistringUser.Surname)
+            <br/>
+            @Html.TextBoxFor(u => u.RegistringUser.Surname)
+            <br/>
+            @Html.ValidationMessageFor(u => u.RegistringUser.Email)<br/>
+            @Html.LabelFor(u => u.RegistringUser.Email)
+            <br/>
+            @Html.TextBoxFor(u => u.RegistringUser.Email)
+            <br/>
+            @Html.ValidationMessageFor(u => u.RegistringUser.Password)<br/>
+            @Html.LabelFor(u => u.RegistringUser.Password)
+            <br/>
+            @Html.PasswordFor(u => u.RegistringUser.Password)
+            <br/>
+            @Html.ValidationMessageFor(u => u.RegistringUser.PhoneNumber)<br/>
+            @Html.LabelFor(u => u.RegistringUser.PhoneNumber)
+            <br/>
+            @Html.TextBoxFor(u => u.RegistringUser.PhoneNumber)
+            <br/>
+            @Html.ValidationMessageFor(u => u.RegistringCustomer.Address)<br/>
+            @Html.LabelFor(u => u.RegistringCustomer.Address)
+            <br/>
+            @Html.TextBoxFor(u => u.RegistringCustomer.Address)
+            <br/>
+
+            @Html.LabelFor(u => u.RegistringCustomer.CustomerType)
+            <br/>
+
+            //select runs/iterates thru custtypes and mapps it 
+            @Html.DropDownListFor(u => u.RegistringCustomer.CustomerTypeId, Model.CustomerTypes.Select(ct => new SelectListItem {Text = ct.Name, Value = ct.Id.ToString()}))
+            <br/>
+            <br/>
+
+            <input type="submit" value="Register" class="btn btn-success"/>
+
+        }
+    </fieldset>
+</div>

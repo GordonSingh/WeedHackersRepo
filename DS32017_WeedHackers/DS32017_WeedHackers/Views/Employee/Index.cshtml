@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+@using WeedHackers_Data.ServiceProcess
+@model DS32017_WeedHackers.Models.EmployeeModels.Employee.EmployeeInformationModel
+<header>Welcome @Model.CurrentEmployee.User.Name!</header>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Status</th>
+            <th>Date</th>
+            <th>Service</th>
+            <th>Customer</th>
+            <th>Frequency</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (ServiceRequest currentSR in Model.EmpServiceRequests)
+        {
+            var serviceStatusName = currentSR.ServiceRequestStatusUpdates.OrderByDescending(srsu => srsu.Id).First().ServiceStatus.Name;
+
+            <tr>
+                <td>@serviceStatusName</td>
+                <td>@currentSR.RequestDateTime</td>
+                <td>@currentSR.Service.ServiceName</td>
+                <td><a href="mailto:@currentSR.Customer.User.Email">@currentSR.Customer.User.Name</a></td>
+                <td>@currentSR.FrequencyInMonths Months</td>
+
+
+                @if (serviceStatusName == "Created")
+                {
+                    <td>
+                        <a class="fa fa-magic" href="@Url.Action("EditInspection","Employee")?id=@currentSR.Id" target="_blank"></a>
+                    </td>
+                }
+                else
+                {
+                    <td></td>
+                    <td></td>
+                }
+
+
+
+            </tr>
+        }
+    </tbody>
+</table>

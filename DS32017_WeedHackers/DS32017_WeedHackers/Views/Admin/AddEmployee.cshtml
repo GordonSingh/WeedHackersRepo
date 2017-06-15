@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewBag.Title = "AddEmployee";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+@using Vereyon.Web
+@model DS32017_WeedHackers.Models.EmployeeModels.Admin.AdminModel
+
+<style>
+    .center {
+        text-align: center;
+    }
+</style>
+<header>Register New Employee</header>
+<div>
+    @Html.RenderFlashMessages()
+    @using (Html.BeginForm("NewEmployee", "Admin", FormMethod.Post))
+    {
+        @Html.ValidationSummary(true, "Registration Failed, Please ensure you have filled out the correct information")
+        <div>
+            <fieldset>
+                <div class="center">
+                    @Html.ValidationMessageFor(u=>u.NewUser.Name)<br/>
+                    @Html.LabelFor(u => u.NewUser.Name)
+                    <br/>
+                    @Html.TextBoxFor(u => u.NewUser.Name)
+                    <br/>
+                    @Html.ValidationMessageFor(u => u.NewUser.Surname)<br />
+                    @Html.LabelFor(u => u.NewUser.Surname)
+                    <br/>
+                    @Html.TextBoxFor(u => u.NewUser.Surname)
+                    <br/>
+                    @Html.ValidationMessageFor(u => u.NewUser.Email)<br />
+                    @Html.LabelFor(u => u.NewUser.Email)
+                    <br/>
+                    @Html.TextBoxFor(u => u.NewUser.Email)
+                    <br/>
+                    @Html.ValidationMessageFor(u => u.NewUser.Password)<br />
+                    @Html.LabelFor(u => u.NewUser.Password)
+                    <br/>
+                    @Html.PasswordFor(u => u.NewUser.Password)
+                    <br/>
+                    @Html.ValidationMessageFor(u => u.NewUser.PhoneNumber)<br />
+                    @Html.LabelFor(u => u.NewUser.PhoneNumber)
+                    <br/>
+                    @Html.TextBoxFor(u => u.NewUser.PhoneNumber)
+                    <br/>
+
+                    What type of Employee is being Registered :
+                    @Html.ValidationMessageFor(u => u.NewEmployee.EmployeeTypeId)<br />
+                    <br/>
+                    @Html.DropDownListFor(u => u.NewEmployee.EmployeeTypeId, Model.AllEmployeeTypes.Select(et => new SelectListItem {Text = et.Name, Value = et.Id.ToString()}))
+                    <br/>
+                    Please Select the Department the Employee will belong to :
+                    @Html.ValidationMessageFor(u => u.NewEmployee.DepartmentId)<br />
+                    <br/>
+                    @Html.DropDownListFor(u => u.NewEmployee.DepartmentId, Model.AllDepartments.Select(d => new SelectListItem {Text = d.DepartmentName, Value = d.Id.ToString()}))
+                    <br/>
+                    <input type="submit" value="Register Employee"/>
+                </div>
+            </fieldset>
+        </div>
+    }
+</div>
+

@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "QuotesReceived";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+@model DS32017_WeedHackers.Models.CustomerModels.CustomerQuoteModel
+
+<header>Quotes Received</header>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Quote ID</th>
+                <th>Status</th>
+                <th>Service Advisor</th>
+                <th>Service Requested</th>
+
+                <th>Quantity</th>
+                <th>Duration</th>
+                <th>Total Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Quote in Model.CustomerQuotes)
+            {
+                var serviceStatusName = Quote.ServiceRequestStatusUpdates.OrderByDescending(srsu => srsu.Id).First().ServiceStatus.Name;
+
+                <tr>
+                    <td>@Quote.Id</td>
+                    <td>@serviceStatusName</td>
+                    <td>@Quote.ServiceAdvisor.User.Name</td>
+                    <td>@Quote.Service.ServiceName</td>
+
+                    <td>@Quote.UnitQuantity</td>
+
+                    @if (@Quote.FrequencyInMonths == 0)
+                    {
+                        <td>Once Off</td>
+                    }
+                    <td>@Quote.FrequencyInMonths Months</td>
+                    <td>
+                        @Quote.Total.Value.ToString("R0.00")
+                    </td>
+
+                    @if (serviceStatusName == "Inspected")
+                    {
+                        <td>
+                            <a class="fa fa-check" href="@Url.Action("QuoteApproval","Customer")?id=@Quote.Id" target="_blank"></a>
+                        </td>
+                        <td>
+                            <a class="fa fa-times" href="@Url.Action("QuoteDecline","Customer")?id=@Quote.Id" target="_blank"></a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td></td>
+                        <td></td>
+                    }
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

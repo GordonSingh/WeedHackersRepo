@@ -1,0 +1,146 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+          rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+          rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <br />
+    <br />
+
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead text-center text-muted">
+                        <i class="fa fa-1x fa-fw fa-info">
+                        </i> Contact Details:
+                        <br>
+                        <br><i class="fa fa-1x fa-users" aria-hidden="true">
+                        </i> Siraj / Arin:
+                        <br>
+                        <br>&nbsp;<i class="fa fa-phone-square" aria-hidden="true">
+                        </i> Tel: +27 (0)31 464 3341&nbsp;
+                        <br>
+                        <br><i class="fa fa-phone-square" aria-hidden="true"></i> Cel: +27 (0)82 273 6029&nbsp;
+                        <br>
+                        <br><i class="fa fa-fax" aria-hidden="true"></i> Fax: +27 (0)81 633 8184&nbsp;
+                        <br>
+                        <br><i class="fa fa-envelope" aria-hidden="true"></i> Email: weedhackerss@gmail.com&nbsp;
+                        <br>
+                        <br><i class="fa fa-map-marker" aria-hidden="true"></i> Physical Address:&nbsp;
+                        <br>
+                        <br>20 Downie Crescent Queensmead Ind Park Queensburgh,
+                        <br>
+                        <br>&nbsp; &nbsp;4093 Postal Address: PO Box 14398 Austerville 4052&nbsp;
+                        <br>
+                        <br>GPS Coords: -29.893168,30.902981
+                        <a href="https://www.google.com/maps/preview/-29.893168,30.902981,8z"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-1">
+                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCbd-nsSZmSdgCP2iCnDaAa69YmKsxj6vE'></script>
+                    <div style='overflow: hidden; height: 410px; width: 745px;'>
+                        <div id='gmap_canvas' style='height: 410px; width: 745px;'></div>
+                        <style>
+                            #gmap_canvas img {
+                                max-width: none !important;
+                                background: none !important;
+                            }
+                        </style>
+                    </div> <a href='https://embedmap.org/' style="color: white">google maps for my website</a>
+                    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=033f6f5380f95d798c049fb9be3f5d2062713e8a'></script>
+                    <script type='text/javascript'>
+                    function init_map() {
+                        var myOptions = {
+                            zoom: 13,
+                            center: new google.maps.LatLng(-29.8793508, 30.907304000000067),
+                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                        };
+                        map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                        marker = new google.maps.Marker({
+                            map: map,
+                            position: new google.maps.LatLng(-29.8793508, 30.907304000000067)
+                        });
+                        infowindow = new google.maps
+                            .InfoWindow({
+                                content:
+                                    '<strong>ABCONTRACTING</strong><br>20 Downie Crescent Queensmead Ind Park<br>4068 Queensburgh<br>'
+                            });
+                        google.maps.event.addListener(marker, 'click', function() { infowindow.open(map, marker); });
+                        infowindow.open(map, marker);
+                    }
+
+                    google.maps.event.addDomListener(window, 'load', init_map);
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="section">
+                        <div class="container">
+                            <p class="lead text-center text-muted">
+                                We're on Social Media as well!
+                            </p>
+                            <div class="row text-center">
+                                <div class="col-xs-1 text-center">
+
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="https://twitter.com/HackersWeed"><i class="fa fa-5x fa-fw fa-twitter" style="color: green"></i></a>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="https://www.facebook.com/Weed-Hackers-1060751173998396/"><i class="fa fa-5x fa-fw fa-facebook" style="color: green"></i></a>
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <a href="http://weedhackers.blogspot.co.za/"><i class="fa fa-5x fa-fw fa-rss" style="color: green"></i></a>
+                                </div>
+
+                            </div>
+
+                            <p class="lead text-center text-muted">
+                                Mobile Device Friendly
+                            </p>
+                            <div class="row text-center">
+                                <div class="col-xs-1 text-center">
+                                </div>
+                                <div class="col-xs-3">
+                                    <img src="~/Content/Images/TwitQr.jpg" />
+                                </div>
+                                <div class="col-xs-3">
+                                    <img src="~/Content/Images/FaceQr.jpg" alt="Alternate Text" />
+                                </div>
+
+                                <div class="col-xs-3">
+                                    <img src="~/Content/Images/blog (2).jpg" />
+                                </div>
+                                <div class="col-xs-3 text-center"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,55 @@
+﻿@using WeedHackers_Data.ServiceProcess
+
+@{
+    ViewBag.Title = "EmployeeJobs";
+    Layout = "~/Views/Shared/_SecondaryMaster.cshtml";
+}
+
+<header>Jobs Assigned</header>
+<div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Lead Employee</th>
+            <th>Status</th>
+            <th>Date</th>
+            <th>Service</th>
+            <th>Customer</th>
+            <th>Frequency</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+            @foreach (ServiceRequest currentSR in Model.EmpServiceRequests)
+            {
+                var serviceStatusName = currentSR.ServiceRequestStatusUpdates.OrderByDescending(srsu => srsu.Id).First().ServiceStatus.Name;
+
+                <tr>
+                    <td>@currentSR.LeadEmployee.User.Name @currentSR.LeadEmployee.User.Surname</td>
+                    <td>@serviceStatusName</td>
+                    <td>@currentSR.RequestDateTime.ToString()</td>
+                    <td>@currentSR.Service.ServiceName</td>
+                    <td><a href="mailto:@currentSR.Customer.User.Email">@currentSR.Customer.User.Name</a></td>
+                    <td>@currentSR.FrequencyInMonths Months</td>
+
+
+                    @if (serviceStatusName == "Accepted")
+                    {
+                        <td>
+                            <a class="fa fa-magic" href="@Url.Action("QuotesManagement", "Employee")?id=@currentSR.Id" target="_blank"></a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td></td>
+                        <td></td>
+                    }
+
+
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

@@ -211,14 +211,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\body-style.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\Images\0fe4b3960e354e029b39a930d2e7eade.png" />
+    <Content Include="Content\Images\1.jpg" />
     <Content Include="Content\Images\1493854640_user_male2.png" />
     <Content Include="Content\Images\About1.jpg" />
     <Content Include="Content\Images\About2.jpg" />
+    <Content Include="Content\Images\Asian-women_Pic-3.jpg" />
+    <Content Include="Content\Images\b3.jpg" />
     <Content Include="Content\Images\banne4.jpg" />
     <Content Include="Content\Images\banneer1.jpg" />
     <Content Include="Content\Images\banner2.jpg" />
@@ -226,6 +230,7 @@
     <Content Include="Content\Images\banner5.jpg" />
     <Content Include="Content\Images\blog %282%29.jpg" />
     <Content Include="Content\Images\blog.jpg" />
+    <Content Include="Content\Images\dark_Tire.png" />
     <Content Include="Content\Images\Drain-Cleaning.jpg" />
     <Content Include="Content\Images\env1.jpg" />
     <Content Include="Content\Images\env2.jpg" />
@@ -239,6 +244,7 @@
     <Content Include="Content\Images\image5.jpg" />
     <Content Include="Content\Images\image6.jpg" />
     <Content Include="Content\Images\image7.jpg" />
+    <Content Include="Content\Images\in1.jpg" />
     <Content Include="Content\Images\industrial cleaning.jpg" />
     <Content Include="Content\Images\lawn-care-643559_1280.jpg" />
     <Content Include="Content\Images\logo.png">
@@ -262,6 +268,8 @@
     <Content Include="Content\Images\supersucker1.jpg" />
     <Content Include="Content\Images\supersucker2.jpg" />
     <Content Include="Content\Images\supersucker3.jpg" />
+    <Content Include="Content\Images\sw.jpg" />
+    <Content Include="Content\Images\tea.jpg" />
     <Content Include="Content\Images\trap1.jpg" />
     <Content Include="Content\Images\trap2.jpg" />
     <Content Include="Content\Images\trap3.jpg" />
@@ -305,7 +313,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

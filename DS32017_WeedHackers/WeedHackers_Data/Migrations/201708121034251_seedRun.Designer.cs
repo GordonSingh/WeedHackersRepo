@@ -7,13 +7,13 @@ namespace WeedHackers_Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class addingdates : IMigrationMetadata
+    public sealed partial class seedRun : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addingdates));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(seedRun));
         
         string IMigrationMetadata.Id
         {
-            get { return "201705121122432_adding-dates"; }
+            get { return "201708121034251_seedRun"; }
         }
         
         string IMigrationMetadata.Source

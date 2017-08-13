@@ -3,7 +3,7 @@ namespace WeedHackers_Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class Initial : DbMigration
+    public partial class initial : DbMigration
     {
         public override void Up()
         {
@@ -13,8 +13,8 @@ namespace WeedHackers_Data.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Reason = c.String(nullable: false, maxLength: 500),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .Index(t => t.Reason, unique: true);
@@ -31,10 +31,11 @@ namespace WeedHackers_Data.Migrations
                         RequestDateTime = c.DateTime(nullable: false),
                         CustomerId = c.Int(nullable: false),
                         UnitQuantity = c.Double(),
+                        Total = c.Double(),
                         LeadEmployeeId = c.Int(),
                         CancellationId = c.Int(),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Employees", t => t.LeadEmployeeId)
@@ -55,7 +56,8 @@ namespace WeedHackers_Data.Migrations
                         Id = c.Int(nullable: false),
                         DepartmentId = c.Int(nullable: false),
                         EmployeeTypeId = c.Int(nullable: false),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Deleted = c.Boolean(nullable: false),
+                        Timestamp = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Departments", t => t.DepartmentId, cascadeDelete: false)
@@ -72,8 +74,8 @@ namespace WeedHackers_Data.Migrations
                         Id = c.Int(nullable: false, identity: true),
                         DepartmentName = c.String(nullable: false, maxLength: 500),
                         ManagerId = c.Int(),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Employees", t => t.ManagerId)
@@ -90,8 +92,8 @@ namespace WeedHackers_Data.Migrations
                         UnitDescription = c.String(nullable: false),
                         UnitSuffix = c.String(nullable: false),
                         DepartmentId = c.Int(nullable: false),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Departments", t => t.DepartmentId, cascadeDelete: false)
@@ -104,8 +106,8 @@ namespace WeedHackers_Data.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Name = c.String(nullable: false),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
             
@@ -120,7 +122,8 @@ namespace WeedHackers_Data.Migrations
                         Password = c.String(nullable: false),
                         PhoneNumber = c.String(nullable: false),
                         SuperAdmin = c.Boolean(nullable: false),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Deleted = c.Boolean(nullable: false),
+                        Timestamp = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .Index(t => new { t.Name, t.Surname }, unique: true, name: "IX_FullName")
@@ -134,7 +137,8 @@ namespace WeedHackers_Data.Migrations
                         Address = c.String(nullable: false),
                         CustomerTypeId = c.Int(nullable: false),
                         EmailVerified = c.Boolean(nullable: false),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Deleted = c.Boolean(nullable: false),
+                        Timestamp = c.DateTime(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.CustomerTypes", t => t.CustomerTypeId, cascadeDelete: false)
@@ -148,8 +152,8 @@ namespace WeedHackers_Data.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Name = c.String(nullable: false),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
             
@@ -161,8 +165,8 @@ namespace WeedHackers_Data.Migrations
                         ServiceRequestId = c.Int(nullable: false),
                         ServiceStatusId = c.Int(nullable: false),
                         Message = c.String(nullable: false),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.ServiceStatuses", t => t.ServiceStatusId, cascadeDelete: false)
@@ -176,8 +180,8 @@ namespace WeedHackers_Data.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         Name = c.String(nullable: false, maxLength: 500),
-                        Timestamp = c.DateTime(nullable: false, defaultValueSql: "GETDATE()"),
-                        Deleted = c.Boolean(nullable: false, defaultValue: false),
+                        Timestamp = c.DateTime(nullable: false),
+                        Deleted = c.Boolean(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)
                 .Index(t => t.Name, unique: true);

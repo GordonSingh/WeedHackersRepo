@@ -68,3 +68,283 @@ C:\Users\GameGord\Documents\Visual Studio 2015\Projects\DS32017_WeedHackers\DS32
 C:\Users\GameGord\Documents\Visual Studio 2015\Projects\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Templates\quotation_template.html
 C:\Users\GameGord\Documents\Visual Studio 2015\Projects\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Images\logo.png
 C:\Users\GameGord\Documents\Visual Studio 2015\Projects\DS32017_WeedHackers\DS32017_WeedHackers\bin\Vereyon.Web.FlashMessage.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\ApplicationInsights.config
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\csc.exe
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Images\logo.png
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Templates\quotation_template.html
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll.config
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.pdb
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Vereyon.Web.FlashMessage.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WebGrease.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.pdb
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.pdb
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.dll
+C:\Users\User\Desktop\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.pdb
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\ApplicationInsights.config
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\csc.exe
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Collections.Immutable.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Reflection.Metadata.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\vbc.exe
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe.config
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Images\logo.png
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Templates\quotation_template.html
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll.config
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.pdb
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Agent.Intercept.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.PerfCounterCollector.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.Web.Infrastructure.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Vereyon.Web.FlashMessage.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WebGrease.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.pdb
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.pdb
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.pdb
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.xml
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.csprojResolveAssemblyReference.cache
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.dll
+G:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.pdb
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\ApplicationInsights.config
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\csc.exe
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Collections.Immutable.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Reflection.Metadata.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\vbc.exe
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe.config
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Images\logo.png
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Templates\quotation_template.html
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll.config
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.pdb
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Agent.Intercept.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.Web.Infrastructure.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Vereyon.Web.FlashMessage.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WebGrease.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.pdb
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.pdb
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.pdb
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.xml
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.csprojResolveAssemblyReference.cache
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.dll
+E:\New folder\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.pdb
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\ApplicationInsights.config
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\csc.exe
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\vbc.exe
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Images\logo.png
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Content\Templates\quotation_template.html
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll.config
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\DS32017_WeedHackers.pdb
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Vereyon.Web.FlashMessage.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WebGrease.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\WeedHackers_Data.pdb
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\FrostAura.Dynamics.Core.pdb
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.Web.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Helpers.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Optimization.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\Antlr3.Runtime.pdb
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.dll
+C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_WeedHackers\obj\Debug\DS32017_WeedHackers.pdb

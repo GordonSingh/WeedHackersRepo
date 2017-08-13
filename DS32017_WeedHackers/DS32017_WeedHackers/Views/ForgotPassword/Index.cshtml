@@ -5,10 +5,10 @@
 }
 @using Vereyon.Web
 @model DS32017_WeedHackers.Models.HelperModels.EmailPasswordModel
-<h2 style="text-align: center">Request Password Reset</h2>
+<h2 style="color:white; text-align: center">Request Password Reset</h2>
 <div>
     @Html.RenderFlashMessages()
-    <fieldset style="text-align: center">
+    <fieldset style="color:white; text-align: center">
         <h4>Please enter your registered email</h4>
         @using (Html.BeginForm("ResetPassword", "ForgotPassword", FormMethod.Post))
         {

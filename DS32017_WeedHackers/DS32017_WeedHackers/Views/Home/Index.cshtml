@@ -1,192 +1,353 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
+﻿<!DOCTYPE html>
+<title>WeedHackers</title>
+<link rel="icon" type="image/png" href="~/Content/Images/finalIcon.png" />
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
-<body style="background:aliceblue">
-    <br />
-    <br />
-    <br />
-<div class="section">
+<body class="bgStyle">
 
-    <!--old carousol-->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="imageslide" data-interval="100000" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="item active" id="imageslide">
-                            <img src="https://ununsplash.imgix.net/photo-1413912623716-e6c688db0383?w=1024&amp;q=50&amp;fm=jpg&amp;s=2777ec88322e8725978f0fa956735021">
-                            <div class="carousel-caption">
-                                <h2>Urban and Estate Maintenance</h2>
-                                <p>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="~/Content/Images\image2.jpg">
-                            <div class="carousel-caption">
-                                <h2>
-                                    <br>Pest and Weed Control
-                                    <br>
-                                </h2>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="~/Content/Images\image3.jpg">
-                            <div class="carousel-caption">
-                                <h2>Garden Maintenance</h2>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="~/Content/Images\image7.jpg">
-                            <div class="carousel-caption">
-                                <h2>Environmental Commitment</h2>
-                                <p>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="~/Content/Images\image4.png">
-                            <div class="carousel-caption">
-                                <h2>
-                                    High Grade Industrial Equipment
-                                    <br>
-                                </h2>
-                                <p>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="~/Content/Images\image5.jpg">
-                            <div class="carousel-caption">
-                                <h2>Industrial Cleaning</h2>
-                                <p>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <img src="~/Content/Images\image6.jpg">
-                            <div class="carousel-caption">
-                                <h2>Nature Conservation Maintenance</h2>
-                                <p>
-                                    <br>
-                                </p>
-                            </div>
-                        </div>
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-family: "Lato", sans-serif;
+        }
 
+        body, html {
+            height: 100%;
+            color: #777;
+            line-height: 1.8;
+        }
+
+        /* Create a Parallax Effect */
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        /* First image (Logo. Full height) */
+        .bgimg-1 {
+            background-image: url('https://ununsplash.imgix.net/photo-1413912623716-e6c688db0383?w=1024&amp;q=50&amp;fm=jpg&amp;s=2777ec88322e8725978f0fa956735021');
+            min-height: 100%;
+        }
+
+        /* Second image (Portfolio) */
+        .bgimg-2 {
+            background-image: url('../../Content/Images/banner2.jpg');
+            min-height: 400px;
+        }
+
+        /* Third image (Contact) */
+        .bgimg-3 {
+            background-image: url('../../Content/Images/banner2.jpg');
+            min-height: 400px;
+        }
+
+        .w3-wide {
+            letter-spacing: 10px;
+        }
+
+        .w3-hover-opacity {
+            cursor: pointer;
+        }
+    </style>
+
+    <!-- First Parallax Image with Logo Text -->
+
+    <div class="bgimg-1 w3-display-container " id="home">
+        <div class="w3-display-middle">
+            <span class="w3-center w3-text-black w3-xxxlarge w3-animate-opacity"> WeedHackers <img src="~/Content/Images/finalIcon.png" class="img-circle; w3-hide-small" height="125" width="125" /></span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT US</h3>
+        <p class="w3-center"><em>DOING IT RIGHT THE FIRST TIME!</em></p>
+        <p>
+            Our Story Established in 2000, Weed Hackers, a 100% BEE company, has been committed to environmental and waste management. Haven been in existence for the past 16 years, Weed Hackers have provided consistent and efficient service to the community. Founded by popular environmentalist, the late John Smith, Weed Hackers
+
+            have a workforce dedicated to John’s dream of creating a sustainable environment. We are driven to provide the highest quality service to our customers while maintaining the natural beauty of our planet. All undertakings of the organisation are performed in a manner to sustain the natural resources. The equipment utilised are designed to provide cost effective and reliable results without adversely impacting the ecosystem.
+
+            The primary goal of Weed Hackers is to be the leading role player in the environmental managament industry. By providing around the clock service, Weed Hackers are committed to the company motto, “Do it right the first time".
+        </p>
+
+        <div class="row text-center">
+            <div class="col-md-4">
+                <a href="https://twitter.com/HackersWeed"><i class="fa fa-5x fa-fw fa-twitter" style="color: green"></i></a>
+                <div class="w3-hide-medium w3-hide-large" style="margin-bottom:12px"> <img src="~/Content/Images/TwitQr.jpg" /></div>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.facebook.com/Weed-Hackers-1060751173998396/"><i class="fa fa-5x fa-fw fa-facebook" style="color: green"></i></a>
+                <div class="w3-hide-medium w3-hide-large" style="margin-bottom:12px"><img src="~/Content/Images/FaceQr.jpg" alt="Alternate Text" /></div>
+                </div>
+
+            <div class="col-md-4">
+                <a href="http://weedhackers.blogspot.co.za/"><i class="fa fa-5x fa-fw fa-rss" style="color: green"></i></a>
+                <div class="w3-hide-medium w3-hide-large" style="margin-bottom:12px"><img src="~/Content/Images/blog (2).jpg" /></div>
+                </div>
+
+        </div>
+
+        <div class="row text-center">
+            <div class="col-md-4 w3-hide-small">
+                <img src="~/Content/Images/TwitQr.jpg" />
+            </div>
+            <div class="col-md-4 w3-hide-small">
+                <img src="~/Content/Images/FaceQr.jpg" alt="Alternate Text" />
+            </div>
+
+            <div class="col-md-4 w3-hide-small">
+                <img src="~/Content/Images/blog (2).jpg" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w3-row w3-center" style="color:green">
+        <div class="w3-quarter w3-section">
+            <div class="counters-item">
+                <div>
+                    <h3>150</h3>
+                </div>
+                <i class="fa fa-users fa-3x"></i>
+                <h3>Happy Clients</h3>
+            </div>
+        </div>
+        <div class="w3-quarter w3-section">
+            <div class="counters-item">
+                <div>
+                    <h3>300</h3>
+                </div>
+                <i class="fa fa-check-square fa-3x"></i>
+                <h3>Projects completed</h3>
+            </div>
+        </div>
+        <div class="w3-quarter w3-section">
+            <div class="counters-item">
+                <div>
+                    <h3>100%</h3>
+                </div>
+                <i class="fa fa-thumbs-up fa-3x"></i>
+                <h3>Positive feedback</h3>
+            </div>
+        </div>
+        <div class="w3-quarter w3-section">
+            <div class="counters-item">
+                <div>
+                    <h3>120</h3>
+                </div>
+                <i class="fa fa-users fa-3x"></i>
+                <h3>Meetings</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Second Parallax Image with Gallery Text -->
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">Gallery</span>
+        </div>
+    </div>
+
+    <!-- Container (Gallery Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h3 class="w3-center">OUR GALLERY</h3>
+        <p class="w3-center"><em>Here are some shots of our recent work.</em></p><br>
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            <div class="w3-col m3">
+                <img src="~/Content/Images/lawn-care-643559_1280.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Lawn Care">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="~/Content/Images/medical.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Medical wate removal">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="~/Content/Images/in1.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Industrial Cleaning">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="~/Content/Images/r1.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Waste removal">
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-center w3-section">
+            <div class="w3-col m3">
+                <img src="~/Content/Images/Drain-Cleaning.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="~/Content/Images/felling.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Tree Felling">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="~/Content/Images/Fumigation.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Fumigation">
+            </div>
+
+            <div class="w3-col m3">
+                <img src="~/Content/Images/original.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Weed Removal">
+            </div>
+        </div>
+
+        <!--hidden images-->
+        <div class="w3-hide-small">
+            <!--do not show hidden images on small devices-->
+            <div class="w3-row-padding w3-center">
+                <div id="demo" class="collapse w3-row-padding w3-center ">
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/env2.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
                     </div>
-                    <a class="left carousel-control" href="#imageslide" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
-                    <a class="right carousel-control" href="#imageslide" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/supersucker2.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+                    </div>
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/pest6.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+                    </div>
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/About2.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+                    </div>
+                </div> <!--end section-->
+            </div>
+
+            <div class="w3-row-padding w3-center">
+                <div id="demo2" class="collapse w3-row-padding w3-center" style="margin-top:11px">
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/weed-control-2.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+                    </div>
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/pest3.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+                    </div>
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/pest2.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+                    </div>
+                    <div class="w3-col m3">
+                        <img src="~/Content/Images/in1.jpg" style="width:100%" height="160" onclick="onClick(this)" class="w3-hover-opacity" alt="Drain Cleaning">
+                    </div>
+                </div> <!--end section-->
+            </div>
+
+            <!--start section-->
+            <div class="w3-row-padding w3-center w3-section">
+            <button id="loadmore" class="w3-button w3-padding-large w3-green" data-toggle="collapse" data-target="#demo, #demo2" style="margin-top:20px">  LOAD MORE</button>
+            </div><!--end section-->
+        </div><!--end w3-hide-small-->
+    </div>
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+    <!-- Second Parallax Image with Team Text -->
+    <div class="w3-hide-small">
+        <div class="bgimg-2 w3-display-container w3-opacity-min" id="our-team">
+            <div class="w3-display-middle">
+                <span class="w3-xxlarge w3-text-white w3-wide">Team</span>
+            </div>
+        </div>
+        <div class="w3-content w3-container w3-padding-64" id="portfolio">
+            <h3 class="w3-center">OUR TEAM</h3>
+            <div class="w3-row-padding w3-center">
+                <div class="w3-col m3">
+
+                    <img src="~/Content/Images/sw.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="CEO">
+                    <h6>CEO</h6>
+                    <h4>Maya Singh</h4>
+                </div>
+
+                <div class="w3-col m3">
+                    <img src="~/Content/Images/tea.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Waste Management Manager">
+                    <h6>Waste Management Manager</h6>
+                    <h4>Mike Lewis</h4>
+                </div>
+
+                <div class="w3-col m3">
+                    <img src="~/Content/Images/Asian-women_Pic-3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Estate Maintenance Manager">
+                    <h6>Estate Maintenance Manager</h6>
+                    <h4>Jennifer Mathews</h4>
+                </div>
+
+                <div class="w3-col m3">
+                    <img src="~/Content/Images/1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Industrial Cleaning Manager">
+                    <h6>Industrial Cleaning Manager</h6>
+                    <h4>Sizwe Mshengi</h4>
                 </div>
             </div>
         </div>
     </div>
-</div>
-    <div class="section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h2 class="text-center">Dedicated to bring a better tomorrow</h2>
-                    <img src="~/Content/Images/env1.jpg" class="img-responsive">
-
-                    <p class="text-center">
-                        we are committed to working toward improved environmental sustainability
-                        in our business activities
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h2 class="text-center">
-                        Setting the Standard for excellence
-                        <br />
-                    </h2>
-                    <img src="~/Content/Images/env2.jpg" class="img-responsive">
-
-                    <p class="text-center">
-                        That's why our environmental commitment extends beyond compliance. Our
-                        vision of becoming the nation's leading utility requires that we raise
-                        the bar for ourselves, and that we work with others to do the same.
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h2 class="text-center">Bringing Awareness</h2>
-                    <br />
-                    <br />
-                    <iframe width="265" height="205" src="https://www.youtube.com/embed/cvy_Q5LdEyU" frameborder="0" allowfullscreen></iframe>
-                    <p class="text-center">
-                        We can make a difference, together.
-                        Through media we can educate the children:
-                        This is our planet we must protect and care for her
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h2 class="text-center">Todays Weather Conditions</h2>
-                    <a href="http://www.accuweather.com/en/us/new-york-ny/10007/weather-forecast/349727"
-                       class="aw-widget-legal">
-
-                    </a>
-                    <div id="awcc1460839815256" class="aw-widget-current" data-locationkey="305605"
-                         data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1460839815256"></div>
-                    <script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
-                    <p class="text-center">
-                        Todays Weather Forecast
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="content-block blog-1">
-            <div class="container text-center">
-
-                <div class="underlined-title">
-                    <div class="editContent">
-
-                    </div>
-                    <hr>
-                    <div class="editContent">
-                        <h2>The latest news &amp; posts</h2>
-                    </div>
-                </div>
-
-                <div class="col-sm-10 col-sm-offset-1">
-
-                    <div class="post">
-                        <div class="editContent">
-                            <h2>
-                                <a href="http://weedhackers.blogspot.co.za/2016/10/weed-hackers-background-environmental.html" style="color: #5cb85c">Weedhackers Blogspot <i class="fa fa-1x fa-rss" aria-hidden="true"></i></a>
-                            </h2>
-                        </div>
-                        <img class="img-responsive" src="~/Content/Images/blog.jpg">
-
-                        <div class="editContent">
-                            <h3>
-                                Managing and Monitoring Environmental Services Personnel
-                            </h3>
-                            <p> Monitoring the operational processes associated with environmental cleaning services,</p>
-                            <p> and properly training and managing the staff charged with these duties,</p>
-                            <p>
-                                are additional elements necessary for preventing transmission of HAIs.
-                                Strategies for assessing compliance may include use of checklists, direct observation (open or covert),
-                                and surveys of personnel and patients.
-                            </p>
-
-                        </div>
-                        <div class="">
-                            <a href="http://weedhackers.blogspot.co.za/2016/10/weed-hackers-background-environmental.html" class="btn btn-success">Read More</a>
-
-                        </div>
-                    </div>
-
-
-
-                </div><!-- /.col-sm-10 -->
-
-            </div><!-- /.container -->
+    <!-- Third Parallax Image with Contact Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
         </div>
     </div>
+
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <h3 class="w3-center">WHERE WE ARE BASED</h3>
+        <p class="w3-center"><em>We would love your feedback!</em></p>
+
+        <div class="w3-row w3-padding-32 w3-section">
+            <div class="w3-col m4 w3-container">
+                <!-- Add Google Maps -->
+                <div id="googleMap" class="w3-round-large" style="width:100%;height:400px;"></div>
+            </div>
+            <div class="w3-col m8 w3-panel">
+                <div class="w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Queensburgh, KZN<br>
+                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 031 464 9087<br>
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: weedhackers@gmail.com<br>
+                </div>
+                <p>Tell us what you think! <i class="fa fa-comment" aria-hidden="true"></i></p>
+                <form action="/action_page.php" target="_blank">
+                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                        </div>
+                        <div class="w3-half">
+                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                        </div>
+                    </div>
+                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <button class="w3-button w3-green w3-right w3-section" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Add Google Maps -->
+    <script>
+            function myMap() {
+                myCenter = new google.maps.LatLng(-29.878681, 30.907694);
+                var mapOptions = {
+                    center: myCenter,
+                    zoom: 12, scrollwheel: false, draggable: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                });
+                marker.setMap(map);
+            }
+            // Modal Image Gallery
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+                var captionText = document.getElementById("caption");
+                captionText.innerHTML = element.alt;
+            }
+        </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6_vmly64NLqIaZcKkR5_6R6_UJIePRnQ&callback=myMap"></script>
 </body>
 

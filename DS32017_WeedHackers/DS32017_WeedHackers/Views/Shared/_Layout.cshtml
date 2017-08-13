@@ -5,82 +5,169 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title Weedhackers</title>
+    <link rel="icon" type="image/png" href="~/Content/Images/finalIcon.png" />
     @Styles.Render("~/Content/css")
     <link rel="stylesheet" href="~/Content/font-awesome.min.css" />
     @Scripts.Render("~/bundles/modernizr")
-</head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("WeedHackers", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
 
-                <ul class="nav navbar-nav">
-                    @foreach (var navItem in Model.NavigationModels)
-                    {
-                        <li>
-                            <a class="@navItem.Class nav-item @navItem.Class" href="@navItem.Link"><i class="@navItem.Icon"></i> @navItem.Title</a>
-                        </li>
-                    }
-                </ul>
-            </div>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="~/Scripts/jquery-3.1.1.js"></script>
+  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link href="~/Content/body-style.css" rel="stylesheet" />
+
+    <link href="~/Content/loadMore.css" rel="stylesheet" />
+    <script src="~/Scripts/loadMore.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+
+
+</head>
+<body class="bgStyle">
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-text-green w3-button"><i class="fa fa-home"></i>HOME</a>
+            <a href="#about" class="w3-bar-item w3-text-black w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-text-black w3-button w3-hide-small"><i class="fa fa-th"></i> GALLERY</a>
+            <a href="#our-team" class="w3-bar-item w3-text-black w3-button w3-hide-small"><i class="fa fa-users"></i> TEAM</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-black w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+
+            <a href="@Url.Action("Index", "Security")" class="w3-bar-item w3-button w3-text-green w3-hide-small"><i class="fa fa-sign-in"></i> LOG IN</a>
+            <a href="@Url.Action("Index","Registration")" class="w3-bar-item w3-button w3-text-green w3-hide-small"><i class="fa fa-user-plus"></i> SIGN UP</a>
+
+            <a href="@Url.Action("Index", "Home")" class="w3-bar-block  w3-text-black w3-xlarge w3-button w3-hide-small w3-right w3-hover-green">
+                WeedHackers&trade;
+                <img src="~/Content/Images/finalIcon.png" class="img-circle" height="40" width="40" />
+            </a>
+        </div>
+
+        @*Navbar on small screens*@
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#our-team" class="w3-bar-item w3-button" onclick="toggleFunction()">OUR TEAM</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+            <a href="@Url.Action("Index", "Security")" class="w3-bar-item w3-text-green w3-button" onclick="toggleFunction()">LOGIN</a>
+            <a href="@Url.Action("Index", "Registration")" class="w3-bar-item w3-text-green w3-button" onclick="toggleFunction()">SIGN UP</a>
         </div>
     </div>
-
-
 
     <div class="container body-content">
         @RenderBody()
-    </div>
-    <footer class="section section-success" style="background-color: darkseagreen;
-    color: white;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h1>WeedHackers&trade; </h1>
-                    <p>
-                        A subdivision of ABContracting Services,
-                        <br>To be a leading role player,
-                        <br>  in the Waste Management Industry
-                        <br>   "Doing it right the first time!"
-                    </p>
-                </div>
-                <div class="col-sm-6">
-                    <p class="text-info text-right">
-                        <br>
-                        <br>
-                    </p>
-                    @*<div class="row">
-                            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
-
-                            </div>
-                        </div>*@
-                    <div class="row">
-                        <div class="col-md-12 text-right">
-                            <a href="https://twitter.com/HackersWeed"><i class="fa fa-3x fa-fw fa-twitter text-inverse" style="color: white"></i></a>
-                            <a href="https://www.facebook.com/Weed-Hackers-1060751173998396/"><i class="fa fa-3x fa-fw fa-facebook text-inverse" style="color: white"></i></a>
-                            <a href="http://weedhackers.blogspot.co.za/"><i class="fa fa-3x fa-fw fa-rss text-inverse" style="color: white"></i></a>
-                        </div>
-
+    <!--new footer start-->
+    <footer class="w3-center w3-green w3-padding-64 ">
+        <div id="footer">
+            <div class="container ">
+                <a href="#home" class="w3-button w3-light-grey w3-center" style="margin-top:12px"><i class="fa fa-arrow-circle-up w3-margin-right"></i>To the top</a>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3 class="section-title" style="color:black">About Us</h3>
+                        <p style="color:black">
+                            A Subdivision Of Maxcor IT Solutions.
+                            To be a leading role player,
+                            in the Waste Management Industry
+                            <br />  "Doing it right the first time!"
+                            <br />This web site, and the information which it contains, is the property of Entrust and its affiliates and licensors, and is protected from unauthorized copying and dissemination by United States copyright law, trademark law, international conventions and other intellectual property laws.
+                        </p>
                     </div>
-
-                    <p>&copy; @DateTime.Now.Year - WeedHackers&trade;</p>
+                    <div class="col-sm-4 w3-hide-small">
+                        <h3 class="section-title" style="color:black">Our Services</h3>
+                        <ul>
+                            <li><a href="#" style="color:black">Medical Waste Removal</a></li>
+                            <li><a href="#" style="color:black">Grass Cutting</a></li>
+                            <li><a href="#" style="color:black">Emergency Spill Cleanup</a></li>
+                            <li><a href="#" style="color:black">Pest And Weed Control</a></li>
+                            <li><a href="#" style="color:black">Rubble Removal</a></li>
+                            <li><a href="#" style="color:black">Fumigation</a></li>
+                            <li><a href="#" style="color:black">Tree Felling</a></li>
+                            <li><a href="#" style="color:black">Sanitation Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 w3-hide-small">
+                        <h3 class="section-title" style="color:black">Our Address</h3>
+                        <ul class="contact-info">
+                            <li><i class="fa fa-map-marker"></i><a style="color:black">  20 Downie Crescent QIP Queensburgh</a></li>
+                            <li><i class="fa fa-phone"></i><a style="color:black">  (0)31 464 3341</a></li>
+                            <li><i class="fa fa-envelope" style="color:white"></i><a href="https://mail.google.com" style="color:black">  weedhackerss@gmail.com</a></li>
+                            <li><i class="fa fa-globe" style="color:white"></i><a href="https://www.facebook.com/Weed-Hackers-1060751173998396/" style="color:black">  Weedhackers Facebook</a></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
                 </div>
+                <br /><br />
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                        <a href="https://twitter.com/HackersWeed" style="color:black"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                        <a href="https://www.facebook.com/Weed-Hackers-1060751173998396/" style="color:black"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                        <a href="http://weedhackers.blogspot.co.za/" style="color:black"><i class="fa fa-3x fa-fw fa-rss text-inverse"></i></a>
+                    </div>
+                </div>
+
+                <p style="color:black">&copy; @DateTime.Now.Year - WeedHackers&trade;</p>
             </div>
         </div>
-
     </footer>
-
+    <!--footer end-->
+        </div>
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+        <script>
+                @*// Change style of navbar on scroll*@
+                window.onscroll = function () { myFunction() };
+                    function myFunction() {
+                    var navbar = document.getElementById("myNavbar");
+                        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+                        } else {
+                            navbar.className = navbar.className.replace("w3-bar w3-animate-top w3-white w3-card", "");
+                    }
+                }
+                @*// Used to toggle the menu on small screens when clicking on the menu button*@
+                    function toggleFunction() {
+                            var x = document.getElementById("navDemo");
+                            if (x.className.indexOf("w3-show") == -1) {
+                                x.className += " w3-show";
+                            } else {
+                                x.className = x.className.replace(" w3-show", "");
+                            }
+                    }
+        </script>
+    <script>
+ @*<!--smooth scroll scripts-->*@
+            $(document).ready(function () {
+                $('a[href*=#]').click(function () {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                    && location.hostname == this.hostname) {
+                        var $target = $(this.hash);
+                        $target = $target.length && $target
+                        || $('[name=' + this.hash.slice(1) + ']');
+                        if ($target.length) {
+                            var targetOffset = $target.offset().top;
+                            $('html,body')
+                            .animate({ scrollTop: targetOffset }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+            @*===============================*@
+    </script>
+
 </body>
 </html>

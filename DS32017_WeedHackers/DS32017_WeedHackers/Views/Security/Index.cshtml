@@ -1,14 +1,16 @@
 ﻿@using Vereyon.Web
 @model DS32017_WeedHackers.Models.ApplicationModels.LoginModel
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Login";
+    <link rel="icon" type="image/png" href="~/Content/Images/finalIcon.png" />
 }
 
-<h2 style="text-align: center">Welcome,<br/>Please Login to continue..</h2>
+
+<h2 style="color:white; text-align: center">Welcome,<br/>Please Login to continue..</h2>
 @Html.RenderFlashMessages()
 @using(Html.BeginForm("Login", "Security", FormMethod.Post))
 {
-    <fieldset style="text-align: center">
+    <fieldset style="color:white; text-align: center; border-color:black">
        @Html.ValidationMessageFor(u => u.Email)<br/>
          @Html.LabelFor(u => u.Email)
         <br/>

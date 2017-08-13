@@ -1,15 +1,12 @@
-using System.Collections.Generic;
-using System.Data.Entity.Validation;
-using WeedHackers_Data.Entities;
-using WeedHackers_Data.ServiceProcess;
-using WeedHackers_Data.UserTypes;
-
 namespace WeedHackers_Data.Migrations
 {
+    using Entities;
+    using ServiceProcess;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using UserTypes;
 
     internal sealed class Configuration : DbMigrationsConfiguration<WeedHackers_Data.WeedHackersContext>
     {
@@ -171,7 +168,7 @@ namespace WeedHackers_Data.Migrations
                 PhoneNumber = "062 155 7738",
             };
 
-            context.Users.AddOrUpdate(u => u.Email, austinRyan, tristan, nikita, adhikesh, adminArinSingh, serviceAdvisorNevesh,serviceAdvisorTom,serviceAdvisorMark);
+            context.Users.AddOrUpdate(u => u.Email, austinRyan, tristan, nikita, adhikesh, adminArinSingh, serviceAdvisorNevesh, serviceAdvisorTom, serviceAdvisorMark);
 
             context.SaveChanges();
 
@@ -258,7 +255,7 @@ namespace WeedHackers_Data.Migrations
                 DepartmentId = estateMaintenanceDepartment.Id
             };
 
-            context.Employees.AddOrUpdate(eu => eu.Id, adminEmp, emp2, emp3, emp4, emp1, serviceAdvisorEmp,serviceAdvisorEmp2,serviceAdvisorEmp3);
+            context.Employees.AddOrUpdate(eu => eu.Id, adminEmp, emp2, emp3, emp4, emp1, serviceAdvisorEmp, serviceAdvisorEmp2, serviceAdvisorEmp3);
 
             context.SaveChanges();
 
@@ -269,7 +266,7 @@ namespace WeedHackers_Data.Migrations
             wasteManagementDepartment.ManagerId = emp1.Id;
             estateMaintenanceDepartment.ManagerId = emp3.Id;
             industrialCleaningDepartment.ManagerId = emp2.Id;
-            context.Departments.AddOrUpdate(d=>d.Id,wasteManagementDepartment,estateMaintenanceDepartment,industrialCleaningDepartment);
+            context.Departments.AddOrUpdate(d => d.Id, wasteManagementDepartment, estateMaintenanceDepartment, industrialCleaningDepartment);
             context.SaveChanges();
             #endregion
 
@@ -346,7 +343,7 @@ namespace WeedHackers_Data.Migrations
             #endregion
 
             #region Service Request Statuses
-            
+
             var createdUpdate = new ServiceStatus
             {
                 Name = "Created"
@@ -374,7 +371,7 @@ namespace WeedHackers_Data.Migrations
                 Name = "Completed"
             };
 
-            context.ServiceStatuses.AddOrUpdate(ss=>ss.Name,createdUpdate,inspectedUpdate,acceptedUpdate,rejectedUpdate,progressUpdate,completeUpdate);
+            context.ServiceStatuses.AddOrUpdate(ss => ss.Name, createdUpdate, inspectedUpdate, acceptedUpdate, rejectedUpdate, progressUpdate, completeUpdate);
 
             context.SaveChanges();
             #endregion

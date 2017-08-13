@@ -78,17 +78,13 @@
     <Compile Include="Entities\Department.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="Entities\Service.cs" />
-    <Compile Include="Migrations\201705121119081_Initial.cs" />
-    <Compile Include="Migrations\201705121119081_Initial.Designer.cs">
-      <DependentUpon>201705121119081_Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201708121016359_initial.cs" />
+    <Compile Include="Migrations\201708121016359_initial.Designer.cs">
+      <DependentUpon>201708121016359_initial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201705121122432_adding-dates.cs" />
-    <Compile Include="Migrations\201705121122432_adding-dates.Designer.cs">
-      <DependentUpon>201705121122432_adding-dates.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201705151750281_addedTotalToServiceRequest.cs" />
-    <Compile Include="Migrations\201705151750281_addedTotalToServiceRequest.Designer.cs">
-      <DependentUpon>201705151750281_addedTotalToServiceRequest.cs</DependentUpon>
+    <Compile Include="Migrations\201708121034251_seedRun.cs" />
+    <Compile Include="Migrations\201708121034251_seedRun.Designer.cs">
+      <DependentUpon>201708121034251_seedRun.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ServiceProcess\Cancellation.cs" />
@@ -106,14 +102,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705121119081_Initial.resx">
-      <DependentUpon>201705121119081_Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201708121016359_initial.resx">
+      <DependentUpon>201708121016359_initial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201705121122432_adding-dates.resx">
-      <DependentUpon>201705121122432_adding-dates.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201705151750281_addedTotalToServiceRequest.resx">
-      <DependentUpon>201705151750281_addedTotalToServiceRequest.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201708121034251_seedRun.resx">
+      <DependentUpon>201708121034251_seedRun.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

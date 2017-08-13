@@ -2,16 +2,17 @@
 @model DS32017_WeedHackers.Models.ApplicationModels.CustomerRegistrationModel
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = "Register";
+    <link rel="icon" type="image/png" href="~/Content/Images/finalIcon.png" />
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2 style="text-align: center">You're almost there..</h2>
-<h3 style="text-align: center">Register to get started</h3>
+<h2 style="color:white; text-align: center">You're almost there..</h2>
+<h3 style="color:white;text-align: center">Register to get started</h3>
 
 <div>
     @Html.RenderFlashMessages()
-    <fieldset style="text-align: center">
+    <fieldset style="color:white; text-align: center">
         @using (Html.BeginForm("Register", "Registration", FormMethod.Post))
         {
             @Html.ValidationMessageFor(u => u.RegistringUser.Name)<br/>

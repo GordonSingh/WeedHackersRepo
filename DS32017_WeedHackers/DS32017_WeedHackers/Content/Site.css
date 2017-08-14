@@ -121,3 +121,11 @@ body {
         padding: 15px;
         background-color: rgb(237, 241, 245);
     }
+
+    .w3-display-middle {
+    position: absolute;
+    top: 20% !important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}

@@ -16,3 +16,12 @@ C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_Weed
 C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\obj\Debug\DS32017_Weedhackers.Test.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\obj\Debug\DS32017_Weedhackers.Test.dll
 C:\Users\User\Desktop\FinalIntegratedDS3\Integrated\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\obj\Debug\DS32017_Weedhackers.Test.pdb
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\bin\Debug\DS32017_Weedhackers.Test.dll
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\bin\Debug\DS32017_Weedhackers.Test.pdb
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\bin\Debug\nunit.framework.dll
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\bin\Debug\nunit.framework.xml
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\obj\Debug\DS32017_Weedhackers.Test.csprojResolveAssemblyReference.cache
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\obj\Debug\DS32017_Weedhackers.Test.dll
+C:\Users\GameGord\Desktop\WeedHackersRepo\DS32017_WeedHackers\DS32017_Weedhackers.Test\obj\Debug\DS32017_Weedhackers.Test.pdb
